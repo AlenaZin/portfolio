@@ -4,19 +4,19 @@ import { S } from "./Footer_Styles";
 const SocialItemsData: {iconId: string, link:string}[] = [
   {
     iconId:"instagram",
-    link: ""
+    link: "https://www.instagram.com/alyonk_zin/"
   },
   {
     iconId:"telegram",
-    link: ""
+    link: "https://t.me/alyonk_zin"
   },
   {
     iconId:"vk",
-    link: ""
+    link: "https://vk.com/alyonk"
   },
   {
     iconId:"linkedin",
-    link: ""
+    link: "https://ru.linkedin.com/"
   },
 ]
 
