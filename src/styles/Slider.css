@@ -1,0 +1,22 @@
+
+.alice-carousel__dots-item:not(.__custom) {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  transition: .2s ease-in-out;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+}
+
+.alice-carousel__dots-item:not(.__custom).__active, 
+.alice-carousel__dots-item:not(.__custom):hover {
+  background-color: #333;
+}
+
+.alice-carousel__prev-btn, .alice-carousel__next-btn {
+  display: none;
+}
+
+.alice-carousel__stage-item {
+  padding: 0 5px;
+}
